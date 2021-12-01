@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="com.findingcareer.vedingmachinepj.MainController">
+   <children>
+      <AnchorPane fx:id="background" layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="485.0" prefWidth="818.0">
+         <children>
+            <Text layoutX="46.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HỌ VÀ TÊN">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="46.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SỐ TIỀN NẠP">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="12.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HÓA ĐƠN">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <ComboBox fx:id="money" layoutX="178.0" layoutY="147.0" prefWidth="150.0" />
+            <TextField fx:id="name" layoutX="174.0" layoutY="33.0" prefHeight="6.0" prefWidth="218.0" promptText="nhập họ tên" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f7f700" height="155.0" layoutX="491.0" layoutY="161.0" stroke="BLACK" strokeType="INSIDE" width="308.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f7f700" height="153.0" layoutX="492.0" layoutY="324.0" stroke="BLACK" strokeType="INSIDE" width="308.0" />
+            <Text fx:id="stateBook" layoutX="625.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="stateCard" layoutX="625.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="46.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SỐ ĐIỆN THOẠI">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <TextField fx:id="phone" layoutX="178.0" layoutY="91.0" prefHeight="6.0" prefWidth="218.0" promptText="nhập số điện thoại" />
+            <ImageView fitHeight="141.0" fitWidth="141.0" layoutX="501.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/Nước-giải-khát-Coca-Cola-lon-250ml.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="141.0" fitWidth="132.0" layoutX="506.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/8934588012228%201.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f7f700" height="155.0" layoutX="491.0" stroke="BLACK" strokeType="INSIDE" width="308.0" />
+            <ImageView fitHeight="141.0" fitWidth="141.0" layoutX="501.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imgs/nuoc-ngot-fanta-huong-soda-kem-trai-cay-330ml-202105101322560045.jpg" />
+               </image>
+            </ImageView>
+            <Text fx:id="title" layoutX="654.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fanta soda kem" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="title1" layoutX="654.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20.000 Đ" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="title2" layoutX="654.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coca cola" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="title3" layoutX="654.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10.000 Đ" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="title4" layoutX="654.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pepsi" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="title5" layoutX="654.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10.000 Đ" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Separator layoutX="-3.0" layoutY="196.0" prefHeight="6.0" prefWidth="492.0" />
+            <Separator layoutX="-2.0" layoutY="355.0" prefHeight="0.0" prefWidth="492.0" />
+            <Text layoutX="32.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THÀNH TIỀN">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Spinner fx:id="FantaCounted" layoutX="717.0" layoutY="117.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="26.0" prefWidth="69.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Spinner>
+            <Spinner fx:id="ColaCounted" layoutX="717.0" layoutY="278.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="26.0" prefWidth="69.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Spinner>
+            <Spinner fx:id="PepsiCounted" layoutX="717.0" layoutY="435.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="26.0" prefWidth="69.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Spinner>
+            <Text fx:id="title6" layoutX="21.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fanta soda kem" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="title21" layoutX="21.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coca cola" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="title41" layoutX="20.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pepsi" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="FantaQuantity" layoutX="161.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SL" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="ColaQuantity" layoutX="161.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SL" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="PepsiQuantity" layoutX="161.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SL" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="FantaTotal" layoutX="270.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TT" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="ColaTotal" layoutX="270.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TT" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="PepsiTotal" layoutX="270.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TT" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="total" layoutX="224.0" layoutY="397.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TT" wrappingWidth="125.0595703125">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Button layoutX="245.0" layoutY="430.0" mnemonicParsing="false" onAction="#cancel" text="HỦY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="333.0" layoutY="430.0" mnemonicParsing="false" onAction="#order" text="ĐẶT">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="382.0" layoutY="144.0" mnemonicParsing="false" onAction="#addToWallet" text="NẠP TIỀN">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="382.0" layoutY="276.0" mnemonicParsing="false" onAction="#checkOrder" text="KIỂM TRA">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
